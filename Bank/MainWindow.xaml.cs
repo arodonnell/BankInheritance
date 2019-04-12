@@ -53,6 +53,7 @@ namespace Bank
 
             lbxDisplay.ItemsSource = accounts;
         }
+        //Display list box details of item selected
 
         private void lbxDisplay_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
